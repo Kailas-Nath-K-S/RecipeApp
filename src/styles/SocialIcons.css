@@ -1,0 +1,35 @@
+.social-bar {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  
+}
+
+.icon {
+   
+  font-size: 1.8rem;
+  color: #555;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+img{
+     object-fit: cover;
+    height: 40px;
+    border-radius: 10px;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.instagram:hover {
+  color: #E1306C;
+}
+
+.whatsapp:hover {
+  color: #33ad49;
+}
+
+.twitter:hover {
+  color: #1DA1F2;
+}
+
